@@ -34,7 +34,6 @@ describe('App', function() {
     // This test will only works once `App` is refactored into a stateful class component
     // because `renderIntoDocument` does not work with stateless class components
     expect(React.Component.isPrototypeOf(App)).to.be.true;
-
     var videoEntryTitleElements = scryRenderedDOMComponentsWithClass(app, 'video-list-entry-title');
 
     videoEntryTitleElements.forEach((videoEntryTitle) => {
