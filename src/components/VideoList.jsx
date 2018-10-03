@@ -1,4 +1,4 @@
-import VideoListEntry from "./VideoListEntry.js"
+import VideoListEntry from './VideoListEntry.js';
 
 var VideoList = (props) => (
   <ul className="video-list">
